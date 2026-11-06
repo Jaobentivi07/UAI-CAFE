@@ -473,3 +473,306 @@ header ul li a {
 html {
     scroll-behavior: smooth;
 }
+
+
+/* =================================
+   RESPONSIVIDADE - UAI CAFÉ
+================================= */
+
+@media (max-width: 768px) {
+
+
+    .body {
+        padding: 0 5%;
+    }
+
+
+    header {
+        height: auto;
+        padding: 15px 0;
+        flex-direction: column;
+        gap: 15px;
+        overflow: visible;
+    }
+
+    header div:nth-child(1) img {
+        width: 65px;
+    }
+
+    header div:nth-child(2) ul,
+    header div:nth-child(3) ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 11px;
+    }
+
+    header div:nth-child(2) ul li,
+    header div:nth-child(3) ul li {
+        padding: 6px 10px;
+        margin: 3px;
+    }
+
+
+    .sec1 {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .sec1 div:nth-child(1) {
+        width: 100%;
+    }
+
+    .sec1 div:nth-child(1) h1 {
+        font-size: 2.5rem;
+    }
+
+    .sec1 div:nth-child(1) h3 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .sec1 div:nth-child(2) {
+        width: 100%;
+    }
+
+    .sec1 div:nth-child(2) img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .line {
+        margin-bottom: 30px;
+    }
+
+
+    .sec2 {
+        margin: 50px 0;
+    }
+
+    .sec2 h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .sec2 .container {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .sec2 .container div {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .sec2 .container div img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+    }
+
+    .sec2 .container div i {
+        margin: 15px 0;
+    }
+
+
+    .sec3 {
+        flex-direction: column;
+        margin: 50px 0;
+        gap: 25px;
+    }
+
+    .sec3 div:nth-child(1) {
+        width: 100%;
+    }
+
+    .sec3 div:nth-child(1) img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sec3 div:nth-child(2) {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .sec3 div:nth-child(2) h1 {
+        font-size: 1.7rem;
+    }
+
+    .sec3 div:nth-child(2) p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+
+    .sec4 {
+        margin: 50px 0;
+    }
+
+    .sec4 h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .sec4div {
+        width: 100%;
+    }
+
+    .qns {
+        margin: 10px 0;
+    }
+
+    .qns div:nth-child(1) {
+        flex: 1;
+        min-width: 0;
+        padding: 10px;
+    }
+
+    .qns div h4 {
+        font-size: 0.75rem;
+    }
+
+    .qns div p {
+        font-size: 0.7rem;
+    }
+
+    .qns .add {
+        padding: 0 12px;
+    }
+
+
+    .sec5 {
+        padding: 25px 15px;
+        margin-bottom: 60px;
+    }
+
+    .sec5 h1 {
+        font-size: 1.8rem;
+    }
+
+    .sec5 .container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .sec5 .container div:nth-child(2) {
+        width: 100%;
+    }
+
+    .sec5 form {
+        padding: 0;
+    }
+
+    .sec5 input {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .sec5 p,
+    .sec5 pre {
+        font-size: 0.7rem;
+    }
+
+    .sec5 pre {
+        white-space: pre-wrap;
+    }
+
+    .sec5 .container div:nth-child(4) {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    footer .footersec {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+        padding: 30px 5%;
+    }
+
+    .ftr1,
+    .ftr2,
+    .ftr3,
+    .ftr4 {
+        flex: 1 1 140px;
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    footer .footersec .ftr1 {
+        margin-right: 0;
+    }
+
+    footer .ftr1 img {
+        width: 130px;
+    }
+
+    footer .ftr3 p {
+        width: auto;
+        overflow-wrap: anywhere;
+    }
+
+    footer .ftr4 div {
+        width: 100%;
+    }
+
+    footer .footersec2 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    header div:nth-child(2) ul,
+    header div:nth-child(3) ul {
+        font-size: 10px;
+    }
+
+    header div:nth-child(2) ul li,
+    header div:nth-child(3) ul li {
+        padding: 5px 8px;
+    }
+
+    .sec1 div:nth-child(1) h1 {
+        font-size: 2rem;
+    }
+
+    .sec2 h1,
+    .sec4 h1 {
+        font-size: 1.35rem;
+    }
+
+    .sec3 div:nth-child(2) {
+        padding: 15px;
+    }
+
+    .sec5 {
+        padding: 20px 12px;
+    }
+
+    footer .footersec {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ftr1,
+    .ftr2,
+    .ftr3,
+    .ftr4 {
+        width: 100%;
+    }
+
+    footer .ftr1 {
+        align-items: center;
+    }
+
+}
